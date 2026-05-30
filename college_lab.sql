@@ -46,3 +46,7 @@ SELECT * FROM Student;
 -----
 -- DROP TABLE Student;
 -- DROP DATABASE CollegeDB;
+
+----changes
+SELECT * FROM Student
+WHERE marks > 80;
