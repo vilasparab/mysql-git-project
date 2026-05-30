@@ -58,3 +58,5 @@ CREATE TABLE Student1 (
     city VARCHAR(50),
     marks INT CHECK(marks >= 0)
 );
+
+show create table Student1
