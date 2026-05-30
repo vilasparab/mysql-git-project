@@ -50,3 +50,11 @@ SELECT * FROM Student;
 ----changes
 SELECT * FROM Student
 WHERE marks > 80;
+
+-----
+CREATE TABLE Student1 (
+    studentId INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    city VARCHAR(50),
+    marks INT CHECK(marks >= 0)
+);
